@@ -1,0 +1,1 @@
+const confettiSound = new Audio('assets/sounds/confetti.mp3');
