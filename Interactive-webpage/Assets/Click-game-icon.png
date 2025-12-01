@@ -1,0 +1,4 @@
+<button id="clickBtn">
+  <img src="assets/images/click-game-icon.png" alt="Click Game" style="width:20px; margin-right:5px;">
+  Click Me!
+</button>
