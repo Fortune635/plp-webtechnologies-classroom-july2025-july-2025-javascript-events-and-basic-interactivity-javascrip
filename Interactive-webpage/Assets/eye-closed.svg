@@ -1,0 +1,1 @@
+eyeIcon.src = passwordField.type === 'password' ? 'assets/icons/eye-closed.svg' : 'assets/icons/eye-open.svg';
