@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ultimate Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1 id="heroText">Welcome to PowerLearn Interactive!</h1>
+    <button id="themeToggle">Toggle Light/Dark Mode</button>
+  </section>
+
+  <!-- Counter Game -->
+  <section class="counter-section">
+    <h2>Click Counter Game 🎯</h2>
+    <p>Points: <span id="points">0</span></p>
+    <button id="clickBtn">Click Me!</button>
+    <div id="confetti"></div>
+  </section>
+
+  <!-- Collapsible FAQ -->
+  <section class="faq-section">
+    <h2>FAQ / Info Cards</h2>
+    <div class="faq-card">
+      <h3 class="faq-question">What is PowerLearn?</h3>
+      <p class="faq-answer">PowerLearn is a learning platform that makes education fun and interactive!</p>
+    </div>
+    <div class="faq-card">
+      <h3 class="faq-question">Can I play games here?</h3>
+      <p class="faq-answer">Yes! We have mini interactive games and fun challenges.</p>
+    </div>
+  </section>
+
+  <!-- Form Section -->
+  <section class="form-section">
+    <h2>Sign Up Form</h2>
+    <form id="signupForm">
+      <input type="text" id="name" placeholder="Full Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <div class="password-field">
+        <input type="password" id="password" placeholder="Password" required>
+        <button type="button" id="togglePassword">👁️</button>
+      </div>
+      <div id="passwordStrength"></div>
+      <button type="submit">Submit</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <!-- Parallax Cursor -->
+  <div id="cursorTrail"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
